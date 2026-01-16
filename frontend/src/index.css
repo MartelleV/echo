@@ -9,15 +9,15 @@
   --bg-deep: #0c0c12;
   --bg-card: #111118;
   --bg-elevated: #16161f;
-  --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-hover: rgba(255, 255, 255, 0.12);
-  --text-primary: #f0f0f5;
-  --text-secondary: #a0a0b0;
-  --text-muted: #606070;
-  --text-faint: #404050;
-  --accent: #8b7ec8;
-  --accent-soft: #6b5eb0;
-  --accent-glow: rgba(139, 126, 200, 0.15);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  --text-primary: #fafaff;
+  --text-secondary: #c4c4d4;
+  --text-muted: #8a8a9a;
+  --text-faint: #5a5a6a;
+  --accent: #a594dc;
+  --accent-soft: #8b7ec8;
+  --accent-glow: rgba(165, 148, 220, 0.15);
 }
 
 * {

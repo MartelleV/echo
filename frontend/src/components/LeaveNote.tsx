@@ -93,7 +93,7 @@ export function LeaveNote({ onNoteCreated, onError }: LeaveNoteProps) {
             onChange={(e) => setMessage(e.target.value)}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
-            placeholder="What's on your mind tonight?"
+            placeholder="What's on your mind right now?"
             rows={5}
             className={`w-full px-0 py-2 bg-transparent border-0 border-b text-[--text-primary] placeholder-[--text-faint] focus:outline-none resize-none font-serif text-lg md:text-xl leading-relaxed ${
               errors.message

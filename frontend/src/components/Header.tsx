@@ -47,7 +47,7 @@ export function Header() {
             <br />
             <span className="italic text-[--text-secondary]">{timeOfDay}</span>
           </h1>
-          <p className="text-sm md:text-base text-[--text-muted] max-w-md font-light leading-relaxed">
+          <p className="text-sm md:text-base mx-auto md:mx-0 text-[--text-muted] max-w-md font-light leading-relaxed">
             Thoughts drift here like stars fading at dawn. Leave an echo, read the whispers of
             strangers.
           </p>
