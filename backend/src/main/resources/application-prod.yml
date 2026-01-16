@@ -1,0 +1,15 @@
+# src/main/resources/application-prod.yml
+spring:
+  data:
+    mongodb:
+      uri: ${ECHO_MONGO_URI}
+
+echo:
+  cors-origins: ${ECHO_CORS_ORIGINS}
+  ip-salt: ${ECHO_IP_SALT}
+  rate-limit-per-minute: ${ECHO_RATE_LIMIT_PER_MINUTE:5}
+
+logging:
+  level:
+    com.echo.app: INFO
+    org.springframework: WARN

@@ -1,0 +1,51 @@
+# =========================
+# For OS
+# =========================
+.DS_Store
+
+
+# =========================
+# For IDEs
+# =========================
+.vscode/
+.idea/
+.settings/
+.classpath
+.project
+
+
+# =========================
+# For Spring backend
+# =========================
+target/
+.mvn/
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+.mvn/wrapper/maven-wrapper.jar
+
+
+# =========================
+# For React frontend
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.eslintcache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# =========================
+# For env
+# =========================
+.env
+.env.local
+.env.*.local

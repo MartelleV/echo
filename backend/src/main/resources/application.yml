@@ -1,0 +1,25 @@
+# src/main/resources/application.yml
+
+spring:
+  application:
+    name: echo-backend
+  data:
+    mongodb:
+      uri: ${ECHO_MONGO_URI:mongodb://localhost:27017/echo}
+
+echo:
+  cors-origins: ${ECHO_CORS_ORIGINS:http://localhost:5173}
+  ip-salt: ${ECHO_IP_SALT:default-dev-salt-change-me}
+  rate-limit-per-minute: ${ECHO_RATE_LIMIT_PER_MINUTE:5}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+  endpoint:
+    health:
+      show-details: when_authorized
+
+server:
+  port: 8080
