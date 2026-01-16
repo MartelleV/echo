@@ -20,7 +20,7 @@ A full-stack website where visiting guests can read and leave short notes/though
 ### Running Backend with Docker
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Backend runs at http://localhost:8080, MongoDB at localhost:27017.
