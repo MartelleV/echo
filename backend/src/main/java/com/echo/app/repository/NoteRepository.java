@@ -10,5 +10,4 @@ import org.springframework.stereotype.Repository;
  * Spring Data MongoDB repository for Note documents.
  */
 @Repository
-public interface NoteRepository extends MongoRepository<Note, String> {
-}
+public interface NoteRepository extends MongoRepository<Note, String> {}

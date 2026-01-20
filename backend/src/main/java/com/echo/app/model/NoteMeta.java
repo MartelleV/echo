@@ -7,30 +7,29 @@ package com.echo.app.model;
  */
 public class NoteMeta {
 
-    private String userAgent;
-    private String clientId;
+  private String userAgent;
+  private String clientId;
 
-    public NoteMeta() {
-    }
+  public NoteMeta() {}
 
-    public NoteMeta(String userAgent, String clientId) {
-        this.userAgent = userAgent;
-        this.clientId = clientId;
-    }
+  public NoteMeta(String userAgent, String clientId) {
+    this.userAgent = userAgent;
+    this.clientId = clientId;
+  }
 
-    public String getUserAgent() {
-        return userAgent;
-    }
+  public String getUserAgent() {
+    return userAgent;
+  }
 
-    public void setUserAgent(String userAgent) {
-        this.userAgent = userAgent;
-    }
+  public void setUserAgent(String userAgent) {
+    this.userAgent = userAgent;
+  }
 
-    public String getClientId() {
-        return clientId;
-    }
+  public String getClientId() {
+    return clientId;
+  }
 
-    public void setClientId(String clientId) {
-        this.clientId = clientId;
-    }
+  public void setClientId(String clientId) {
+    this.clientId = clientId;
+  }
 }

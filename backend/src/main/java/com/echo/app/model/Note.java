@@ -21,10 +21,15 @@ public class Note {
   private String ipHash;
   private NoteMeta meta;
 
-  public Note() {
-  }
+  public Note() {}
 
-  public Note(String message, String author, Instant createdAt, String ipHash, NoteMeta meta) {
+  public Note(
+    String message,
+    String author,
+    Instant createdAt,
+    String ipHash,
+    NoteMeta meta
+  ) {
     this.message = message;
     this.author = author;
     this.createdAt = createdAt;

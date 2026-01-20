@@ -10,34 +10,37 @@ import jakarta.validation.constraints.Size;
  */
 public class CreateNoteRequest {
 
-    @NotBlank(message = "message is required")
-    @Size(min = 1, max = 1000, message = "message must be between 1 and 1000 characters")
-    private String message;
+  @NotBlank(message = "message is required")
+  @Size(
+    min = 1,
+    max = 1000,
+    message = "message must be between 1 and 1000 characters"
+  )
+  private String message;
 
-    @Size(max = 100, message = "author must be at most 100 characters")
-    private String author;
+  @Size(max = 100, message = "author must be at most 100 characters")
+  private String author;
 
-    public CreateNoteRequest() {
-    }
+  public CreateNoteRequest() {}
 
-    public CreateNoteRequest(String message, String author) {
-        this.message = message;
-        this.author = author;
-    }
+  public CreateNoteRequest(String message, String author) {
+    this.message = message;
+    this.author = author;
+  }
 
-    public String getMessage() {
-        return message;
-    }
+  public String getMessage() {
+    return message;
+  }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
+  public void setMessage(String message) {
+    this.message = message;
+  }
 
-    public String getAuthor() {
-        return author;
-    }
+  public String getAuthor() {
+    return author;
+  }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
+  public void setAuthor(String author) {
+    this.author = author;
+  }
 }
